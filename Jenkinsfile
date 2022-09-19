@@ -2,7 +2,7 @@
 
 library identifier: 'jenkins-shared-library@feature/extracting-logic-to-groovy-script', retriever: modernSCM(
     [$class: 'GitSCMSource',
-     remote: 'https://github.com/himanshupant4899/Jenkins-shared-library.git'
+     remote: 'https://github.com/himanshupant4899/Jenkins-shared-library.git',
      credentialsId: 'Github-Credentials'
     ]
 )
